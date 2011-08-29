@@ -1,0 +1,30 @@
+===========================
+Societo License Information
+===========================
+
+Societo (and its family bundles and plugins) may be used under the terms of
+either of the Eclipse Public License v1.0 (the "EPL"), the GNU General Public
+License Version 2 or later (the "GPL"), or the GNU Lesser General Public
+License Version 2.1 or later (the "LGPL").
+
+If you wish to allow use of your version of this program only under the terms
+of either the GPL or the LGPL, and not to allow others to use your version of
+this program under the terms of the EPL, remove them by following steps:
+
+1. Remove this file. It is just for explaining about our triple license policy,
+   so you should not need these descriptions.
+
+2. Remove LICENSE.* files which you don't want to use.
+
+3. Rewrite license informations in header of many files to follow your accepted
+   license. (NOTE: Please be careful not to rewrite license informations of
+   third party program)
+
+Trivial files exception
+=======================
+
+We apply CC0 (http://creativecommons.org/publicdomain/zero/1.0/) to the
+following files:
+
+* Configuration files under the app/config and Resources/config
+* Files which contain a declaration of CC0

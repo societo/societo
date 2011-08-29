@@ -1,0 +1,55 @@
+=======
+Societo
+=======
+
+---------------
+What's Societo?
+---------------
+
+Societo is a social site platform. It based with on Symfony2 Standard Edition and some bundles.
+
+...
+
+--------
+Features
+--------
+
+* ...
+
+----------------
+Project Web Page
+----------------
+
+http://societo.org/
+
+------
+Author
+------
+
+* Kousuke Ebihara <ebihara@php.net>
+    * Website: http://co3k.org/
+    * Twitter: @co3k
+
+---------
+Copyright
+---------
+
+Copyright (c) 2011 Kousuke Ebihara. All rights reserved.
+
+-------
+License
+-------
+
+Societo is licensed under the EPL/GPL/LGPL tripule license.
+
+For your convinience, configuration files in app/config and resource files in Resources directory are applied CC0.
+
+Please see the LICENSE file if you want to get more information about this license.
+
+--------------------
+Third party licenses
+--------------------
+
+This program includes the following products:
+
+* Symfony2 (Symfony Standard Edition 2.0.0) (MIT License)

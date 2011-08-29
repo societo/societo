@@ -1,0 +1,73 @@
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
+
+# TODO: most of the following routes must be reconsidered
+
+_root:
+    pattern:  /
+    defaults: { _controller: SocietoPageBundle:Frontend:handle, name: "secure_default" }
+
+_security_login:
+    pattern:  /login
+    defaults: { _controller: SocietoPageBundle:Frontend:handle, name: "insecure_default" }
+
+_security_check:
+    pattern:  /login_check
+
+_security_logout:
+    pattern:  /logout
+
+_authentication:
+    resource: "@SocietoAuthenticationBundle/Resources/config/routing.xml"
+
+_status:
+    resource: "@SocietoStatusPlugin/Resources/config/routing.xml"
+
+_forum:
+    resource: "@SocietoForumPlugin/Resources/config/routing.xml"
+
+_relationship:
+    resource: "@SocietoRelationshipBundle/Resources/config/routing.xml"
+
+_group:
+    resource: "@SocietoGroupBundle/Resources/config/routing.xml"
+
+_base:
+    resource: "@SocietoBaseBundle/Resources/config/routing.xml"
+
+_installer:
+    resource: "@SocietoGlueInstallerBundle/Resources/config/routing/installer.xml"
+    prefix: "/install"
+
+_backend_page_create:
+    pattern:  /admin/page/create
+    defaults: { _controller: SocietoPageBundle:Backend:edit }
+
+_backend_page_edit:  # TODO: rename to plot
+    pattern:  /admin/page/plot/{name}
+    defaults: { _controller: SocietoPageBundle:Backend:plot }
+
+_backend_page_update:
+    pattern:  /admin/page/edit/{name}
+    defaults: { _controller: SocietoPageBundle:Backend:edit }
+
+_backend_page_delete:
+    pattern:  /admin/page/delete/{name}
+    defaults: { _controller: SocietoPageBundle:Backend:delete }
+
+_backend_page_delete_gadget:
+    pattern:  /admin/page/gadget/{id}/delete
+    defaults: { _controller: SocietoPageBundle:Backend:deleteGadget }
+
+_page_routes:
+    resource: "db:routing"
+
+secure_default:
+    pattern:  /
+    defaults: { _controller: SocietoPageBundle:Frontend:handle, name: "secure_default" }
+
+insecure_default:
+    pattern:  /login
+    defaults: { _controller: SocietoPageBundle:Frontend:handle, name: "insecure_default" }

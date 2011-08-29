@@ -1,0 +1,10 @@
+/web/bundles/
+/app/bootstrap*
+/app/cache/*
+/app/logs/*
+/vendor/
+/app/config/parameters.ini
+/web/image/*
+/plugins/*
+/src/Societo
+/web/js/facebox

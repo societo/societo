@@ -1,0 +1,154 @@
+[symfony]
+    git=http://github.com/symfony/symfony.git
+    version=v2.0.1
+
+[twig]
+    git=http://github.com/fabpot/Twig.git
+    version=v1.1.2
+
+[monolog]
+    git=http://github.com/Seldaek/monolog.git
+    version=1.0.1
+
+[doctrine-common]
+    git=http://github.com/doctrine/common.git
+    version=2.1.1
+
+[doctrine-dbal]
+    git=http://github.com/doctrine/dbal.git
+    version=2.1.1
+
+[doctrine]
+    git=http://github.com/doctrine/doctrine2.git
+    version=2.1.1
+
+[swiftmailer]
+    git=http://github.com/swiftmailer/swiftmailer.git
+    version=v4.1.1
+
+[assetic]
+    git=http://github.com/kriswallsmith/assetic.git
+    version=v1.0.1
+
+[twig-extensions]
+    git=http://github.com/fabpot/Twig-extensions.git
+
+[metadata]
+    git=http://github.com/schmittjoh/metadata.git
+    version=1.0.0
+
+[SensioFrameworkExtraBundle]
+    git=http://github.com/sensio/SensioFrameworkExtraBundle.git
+    target=/bundles/Sensio/Bundle/FrameworkExtraBundle
+
+[JMSSecurityExtraBundle]
+    git=http://github.com/schmittjoh/JMSSecurityExtraBundle.git
+    target=/bundles/JMS/SecurityExtraBundle
+
+[SensioDistributionBundle]
+    git=http://github.com/sensio/SensioDistributionBundle.git
+    target=/bundles/Sensio/Bundle/DistributionBundle
+
+[SensioGeneratorBundle]
+    git=http://github.com/sensio/SensioGeneratorBundle.git
+    target=/bundles/Sensio/Bundle/GeneratorBundle
+
+[AsseticBundle]
+    git=http://github.com/symfony/AsseticBundle.git
+    target=/bundles/Symfony/Bundle/AsseticBundle
+    version=v1.0.0
+
+; added by Societo
+
+[doctrine-fixtures]
+    git=http://github.com/doctrine/data-fixtures.git
+
+[DoctrineFixturesBundle]
+    git=http://github.com/symfony/DoctrineFixturesBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
+
+[pagerfanta]
+    git=http://github.com/whiteoctober/Pagerfanta.git
+
+[WhiteOctoberPagerfantaBundle]
+    git=http://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git
+    target=/bundles/WhiteOctober/PagerfantaBundle
+
+[Imagine]
+    git=https://github.com/avalanche123/Imagine.git
+
+; Societo Bundles
+
+[SocietoActivityBundle]
+    git=git://git.societo.org/SocietoActivityBundle.git
+    target=/../src/Societo/ActivityBundle
+
+[SocietoBaseBundle]
+    git=git://git.societo.org/SocietoBaseBundle.git
+    target=/../src/Societo/BaseBundle
+
+[SocietoFilterableRoutingBundle]
+    git=git://git.societo.org/SocietoFilterableRoutingBundle.git
+    target=/../src/Societo/FilterableRoutingBundle
+
+[SocietoGroupBundle]
+    git=git://git.societo.org/SocietoGroupBundle.git
+    target=/../src/Societo/GroupBundle
+
+[SocietoPluginBundle]
+    git=git://git.societo.org/SocietoPluginBundle.git
+    target=/../src/Societo/PluginBundle
+
+[SocietoAuthenticationBundle]
+    git=git://git.societo.org/SocietoAuthenticationBundle.git
+    target=/../src/Societo/AuthenticationBundle
+
+[SocietoPageBundle]
+    git=git://git.societo.org/SocietoPageBundle.git
+    target=/../src/Societo/PageBundle
+
+[SocietoRelationshipBundle]
+    git=git://git.societo.org/SocietoRelationshipBundle.git
+    target=/../src/Societo/RelationshipBundle
+
+[SocietoConfigDatabaseBundle]
+    git=git://git.societo.org/SocietoConfigDatabaseBundle.git
+    target=/../src/Societo/Config/DatabaseBundle
+
+[SocietoGlueInstallerBundle]
+    git=git://git.societo.org/SocietoGlueInstallerBundle.git
+    target=/../src/Societo/Glue/InstallerBundle
+
+[SocietoUtilDoctorBundle]
+    git=git://git.societo.org/SocietoUtilDoctorBundle.git
+    target=/../src/Societo/Util/DoctorBundle
+
+[SocietoUtilMobileBundle]
+    git=git://git.societo.org/SocietoUtilMobileBundle.git
+    target=/../src/Societo/Util/MobileBundle
+
+[SocietoUtilStorageBundle]
+    git=git://git.societo.org/SocietoUtilStorageBundle.git
+    target=/../src/Societo/Util/StorageBundle
+
+[SocietoUtilWafBundle]
+    git=git://git.societo.org/SocietoUtilWafBundle.git
+    target=/../src/Societo/Util/WafBundle
+
+; Societo Plugins
+
+[SocietoForumPlugin]
+    git=git://git.societo.org/SocietoForumPlugin.git
+    target=/../plugins/Societo/ForumPlugin
+
+[SocietoFreeAreaPlugin]
+    git=git://git.societo.org/SocietoFreeAreaPlugin.git
+    target=/../plugins/Societo/FreeAreaPlugin
+
+[SocietoStatusPlugin]
+    git=git://git.societo.org/SocietoStatusPlugin.git
+    target=/../plugins/Societo/StatusPlugin
+
+[facebox]
+    git=git://github.com/defunkt/facebox.git
+    target=/../web/js/facebox
