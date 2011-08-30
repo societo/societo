@@ -390,11 +390,15 @@ mysql -u $username -p
 </pre>
 <p>Create database to use:</p>
 <pre class="literal-block">
-CREATE DATABASE `DBNAME` DEFAULT CHARACTER SET utf8;
+CREATE DATABASE DBNAME DEFAULT CHARACTER SET utf8;
 </pre>
 <p>Grant privilege to your database user (if you need / see also : <a class="reference external" href="http://dev.mysql.com/doc/refman/5.6/en/grant.html">http://dev.mysql.com/doc/refman/5.6/en/grant.html</a>):</p>
 <pre class="literal-block">
-GRANT CREAET, DROP, ALTER, INDEX, INSERT, UPDATE, DELETE ON DBNAME.* TO 'username'&#64;'localhost' IDENTIFIED BY 'password';
+GRANT CREATE, DROP, ALTER, INDEX, INSERT, UPDATE, DELETE, SELECT ON DBNAME.* TO 'username'&#64;'localhost' IDENTIFIED BY 'password';
+</pre>
+<p>Flush privileges:</p>
+<pre class="literal-block">
+FLUSH PRIVILEGES;
 </pre>
 </div>
 <div class="section" id="copy-some-files-and-set-permissions">
@@ -403,9 +407,9 @@ GRANT CREAET, DROP, ALTER, INDEX, INSERT, UPDATE, DELETE ON DBNAME.* TO 'usernam
 <p>And you must set permissions for writing from web server (e.g. change mode to 0777) to the following files:</p>
 <ul class="simple">
 <li>app/cache</li>
-<li>app/loghs</li>
+<li>app/logs</li>
 <li>app/config/parameters.ini</li>
-<li>app/bundles</li>
+<li>web/bundles</li>
 <li>web/image</li>
 </ul>
 </div>
