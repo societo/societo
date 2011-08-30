@@ -64,7 +64,11 @@ Create database to use::
 
 Grant privilege to your database user (if you need / see also : http://dev.mysql.com/doc/refman/5.6/en/grant.html)::
 
-    GRANT CREAET, DROP, ALTER, INDEX, INSERT, UPDATE, DELETE ON DBNAME.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+    GRANT CREATE, DROP, ALTER, INDEX, INSERT, UPDATE, DELETE, SELECT ON DBNAME.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+
+Flush privileges::
+
+    FLUSH PRIVILEGES;
 
 3. Copy some files and set permissions
 --------------------------------------
