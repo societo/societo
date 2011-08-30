@@ -74,7 +74,7 @@
     git=http://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git
     target=/bundles/WhiteOctober/PagerfantaBundle
 
-[Imagine]
+[imagine]
     git=https://github.com/avalanche123/Imagine.git
 
 ; Societo Bundles
