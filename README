@@ -8,13 +8,19 @@ What's Societo?
 
 Societo is a social site platform. It based with on Symfony2 Standard Edition and some bundles.
 
-...
+This provides you CMS and collection of libraries for building social site.
 
---------
-Features
---------
+------------
+Hot features
+------------
 
-* ...
+* Basic social kit
+* Basic CMS kit
+* Plugin
+* Skin
+* Page
+* Recipe
+* Mobile
 
 ----------------
 Project Web Page
