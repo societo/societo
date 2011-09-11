@@ -56,6 +56,30 @@ Please see the LICENSE file if you want to get more information about this licen
 Third party licenses
 --------------------
 
-This program includes the following products:
+This program includes the following products (If you want to get version information, please see "deps" file):
 
-* Symfony2 (Symfony Standard Edition 2.0.0) (MIT License)
+* Symfony2 (Symfony Standard Edition) (MIT License)
+* Twig (New BSD License)
+* Monolog (MIT License)
+* Doctrine 2 Common (LGPL v2.1)
+* Doctrine 2 DBAL (LGPL v2.1)
+* Doctrine 2 ORM (LGPL v2.1)
+* Swift Mailer (LGPL v3)
+* Assetic (MIT License)
+* Twig-extensions (??? License)
+* Metadata (Apache License 2.0)
+* SensioFrameworkExtraBundle (MIT License)
+* JMSSecurityExtraBundle (Apache License 2.0)
+* SensioDistributionBundle (MIT License)
+* SensioGeneratorBundle (MIT License)
+* AsseticBundle (MIT License)
+* Doctrine Data Fixtures Extension (LGPL v2.1)
+* DoctrineFixturesBundle (??? License)
+* Pagerfanta (MIT License)
+* WhiteOctoberPagerfantaBundle (MIT License)
+* Imagine (MIT License)
+* html5shiv (MIT License or GPL v2; We've selected MIT License)
+* jQuery (MIT License or GPL v2; We've selected MIT License)
+* jQuery UI (MIT License or GPL v2; We've selected MIT License)
+* Selectivizr (MIT License)
+* Facebox (MIT License)
