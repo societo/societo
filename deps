@@ -152,3 +152,7 @@
 [facebox]
     git=git://github.com/defunkt/facebox.git
     target=/../web/js/facebox
+
+[XhprofBundle]
+    git=https://github.com/jonaswouters/XhprofBundle.git
+    target=/bundles/Jns/Bundle/XhprofBundle

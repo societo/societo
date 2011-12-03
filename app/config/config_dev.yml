@@ -21,3 +21,10 @@ monolog:
 
 assetic:
     use_controller: true
+
+jns_xhprof:
+    location_lib:    /Users/co3k/src/xhprof-0.9.2/xhprof_lib/utils/xhprof_lib.php
+    location_runs:   /Users/co3k/src/xhprof-0.9.2/xhprof_lib/utils/xhprof_runs.php
+    location_config: /Users/co3k/src/xhprof-0.9.2/xhprof_lib/config.php
+    location_web:   http://localhost/~co3k/xhp/
+    enabled:        true

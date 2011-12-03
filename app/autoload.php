@@ -38,6 +38,7 @@ $loader->registerNamespaces(array(
     'Imagine'                        => __DIR__.'/../vendor/imagine/lib',
 
     'Societo' => __DIR__.'/../src',
+    'Jns'     => __DIR__.'/../vendor/bundles'
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
